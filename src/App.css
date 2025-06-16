@@ -37,6 +37,11 @@
 .buttons button:last-child {
     background-color: darkcyan;
 }
+.buttons p {
+    font-size: small;
+    width: 80%;
+    max-width: 20rem;
+}
 .reset {
     padding-block: 2px;
     background-color: red;

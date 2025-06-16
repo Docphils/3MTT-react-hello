@@ -29,6 +29,7 @@ function App() {
                 <button onClick={() => decrement()}>-</button>
                 <button onClick={() => increment()}>+</button>
             </div>
+            <p>Use above buttons to increment or decrement the counter</p>
             <button onClick={() => setNumber(0)} className='reset'>
                 Reset
             </button>
